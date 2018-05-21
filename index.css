@@ -1,41 +1,159 @@
-.title{
-    text-align:center;
-    background-image: url(https://media.candystore.com/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/p/e/peppermint-twists.jpg);
-    padding: 1%;
-    font-size: 30px;
+body{
+    background-color: lightblue;
 }
 
-header{
-    color: black;
+a{
+    text-decoration: none;
 }
 
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.navbar{
-    position: relative;
-    width: 100%;
-    text-align:center;
-    font-size: 40px;
-}
-
-.products{
-    text-align: center;
-}
-
-.item{
-    display:inline-block;
-    width: 25%;
-    image-resolution: 500px 500px;
+.heading{
+    padding: 1px;
+    background-image: url("assets/background.jpeg");    
+    background-size: 100%;
+    background-position-y: 50%;
     border: solid 1px black;
-    margin: 2%;
-    padding: 10px;
+    border-width: 0px 0px 1px 0px;
 }
 
-.footer{
-    
-    text-align:center;
-    background-color:blue;
+.heading h1{
+    color: brown;
+    padding-left: .8em;
+    font-family: "Georgia", Times New Roman, Times, serif;
+    font-style: oblique;
+    font-size: 75px;
 }
+
+.heading h2{
+    margin: -2em 0em 2em 4em;
+    font-family: "Georgia", Times New Roman, Times, serif;
+    font-style: oblique;    
+}
+
+#navigation{
+    /* background-color: rgba(255, 192, 203, 0.5); */
+    margin-left:2em;
+    font-size: 2em;  
+    padding-bottom: 0.5em;
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+#navigation li {
+    background-color: lightblue;
+    display: inline;
+    padding: 0px 30px;
+    border: solid 1px black;
+}
+
+.main {
+    text-align: center;  
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 100px 100px 10px 10px;
+    /* margin-top: 1em; */
+    padding: 0.25em;
+    padding-bottom: 1em; 
+    background-color: rgba(255, 182, 193, 0.5);
+    border: solid 3px pink;
+}
+
+.main header{
+    font-size: 1.5em;
+    font-weight: bold;
+    color:brown;
+    font-family: "Georgia", Times New Roman, Times, serif;
+    font-style: oblique;    
+}
+
+.main p {
+    padding: .25em;
+}
+
+.store{
+    text-align: center;    
+    /* margin-top: 0.25em; */
+    padding-top: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 1em;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(116, 199, 226, 0.5);
+    border: solid 1px black;
+    border-width: 0px 1px 0px 1px; 
+} 
+
+td {
+    width: 25%;
+    height: 25%;
+}
+
+.item {
+    border: solid 3px pink;
+    border-radius: 10px;
+    background-color: rgba(255, 182, 193, 0.5);
+    padding: 0.5em;
+    margin: 0.5em;
+    height: 30em;
+    position: relative;
+}
+
+.item h3 {
+    text-align: left;
+    font-size: 1.5em;
+    color: brown;
+    font-family: "Georgia", Times New Roman, Times, serif;
+    font-style: oblique;    
+}
+
+.item p{
+    text-align: left;
+}
+
+.item img {
+    border: 3px pink solid;
+    border-radius: 10%;
+    max-width: 95%;
+    max-height: 95%;
+}
+
+.item button {
+    font-size: 1em;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0.5em;    
+    left: 1em;
+}
+
+#price {
+    font-size: 1em;
+    font-weight: bold;
+    color: red;
+}
+
+footer {
+    border: solid 1px black;
+    border-width: 1px 0px 0px 0px;
+    text-align: center;
+    background-color: pink;
+    padding: 0.25em;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+footer li{
+    display: inline;
+    padding: 0px 3px;
+}
+
+
